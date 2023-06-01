@@ -1,9 +1,10 @@
 import FormArea from "../forms/FormArea";
+import { Header } from "../header/Header";
 
 export function HomePage() {
 	return (
 		<main>
-			<h1>Home Page</h1>
+			<Header />
 			<FormArea />
 		</main>
 	);
