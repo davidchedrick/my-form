@@ -1,7 +1,14 @@
 .header {
-  background-color: #ff00aa;
+
+  background: radial-gradient(
+    circle at 50% 50%,
+    #e9dd32 0%,
+    #d3cf04 50%,
+    #fcf700 60%,
+    #000000 100%
+  );
+  animation: sun 10s linear infinite;
   color: #ffffff; 
- 
   padding: 16px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
@@ -14,4 +21,50 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-
+@keyframes sun {
+  0% {
+     background: radial-gradient(
+    circle at 50% 50%,
+    #e9dd32 0%,
+    #d3cf04 50%,
+    #fcf800fb 60%,
+    #000000 100%
+  );
+  }
+  25% {
+     background: radial-gradient(
+    circle at 50% 50%,
+    #e9dd32 0%,
+    #d3cf04 50%,
+    #fcf800c7 60%,
+    #000000 100%
+  );
+  }
+  50% {
+     background: radial-gradient(
+    circle at 50% 50%,
+    #e9dd32 0%,
+    #d3cf04 50%,
+    #fcf80088 60%,
+    #000000 100%
+  );
+  }
+  75% {
+     background: radial-gradient(
+    circle at 50% 50%,
+    #e9dd32 0%,
+    #d3cf04 50%,
+    #fcf800a1 60%,
+    #000000 100%
+  );
+  }
+  100% {
+     background: radial-gradient(
+    circle at 50% 50%,
+    #e9dd32 0%,
+    #d3cf04 50%,
+    #fcf800d7 60%,
+    #000000 100%
+  );
+  }
+}
