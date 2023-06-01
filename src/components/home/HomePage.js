@@ -1,10 +1,10 @@
 import FormArea from "../forms/FormArea";
 
 export function HomePage() {
-    return (
-        <div>
-            <div>Home Page</div>
-            <FormArea />
-        </div>
-    );
+	return (
+		<main>
+			<h1>Home Page</h1>
+			<FormArea />
+		</main>
+	);
 }

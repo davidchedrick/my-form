@@ -1,3 +1,57 @@
 .App {
+    --pink: #ff00d4;
+    --black: #000000;
+    --blue: #0000ff;
+    --rainbow:  #f10c0c,
+                #133eff,
+                #990099,
+                #06a36f,
+                #501cca,
+                #022ff8,
+                #d130d1,
+                #5eff00,
+                #f10c0c,
+                #ff9913,
+                #e6f702,
+                #06a36f,
+                #0628e7,
+                #c702f8,
+                #f112ba,
+                #c70d0d,
+                #d67e0b,
+                #ecf842,
+                #17d155,
+                #1e1bf0,
+                #c218ec,
+                #c42574;
+    --maxWidth: 1000px;
+    --bs: 0 12px 24px 0 rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,h2 {
     text-align: center;
 }
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(
+        to right, 
+        #7d9ce6 0%,
+        #5a7cca 50%,
+        #2a5bcf 75%,
+        #0055c4 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
